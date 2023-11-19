@@ -1,0 +1,34 @@
+/* Cambia el color de los enlaces de la barra de navegación a blanco */
+.nav-link {
+    color: white !important;
+}
+
+/* Estilos para elementos con la clase .nav1-item */
+.nav1-item {
+    background-color: #ff0000; /* Fondo rojo */
+    transition: background-color 1s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color al pasar el ratón por encima de .nav1-item */
+.nav1-item:hover {
+    background-color: #101073; /* Fondo azul oscuro */
+}
+
+/* Estilos para elementos con la clase .nav2-item */
+.nav2-item {
+    background-color: #000000; /* Fondo negro */
+    position: absolute;
+    right: 1vw; /* Posición a la derecha */
+}
+
+/* Cambio de color al pasar el ratón por encima de .nav2-item */
+.nav2-item:hover {
+    background-color: #101073; /* Fondo azul oscuro */
+}
+
+/* Estilos para la barra de navegación en un contenedor .navbar-expand-lg */
+body .navbar-expand-lg {
+    border: 5px solid #000000; /* Borde negro */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #000000 !important; /* Fondo negro */
+}

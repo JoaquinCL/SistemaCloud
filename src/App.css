@@ -2,7 +2,7 @@
 
 .centered-container {
   position: relative;
-  background-color: #333; /* Dark background for contrast */
+  background-color: #6d756e; /* Dark background for contrast */
   color: #fff; /* White text for readability */
   padding: 20px; /* Add some padding around the content */
   border-radius: 15px; /* Rounded corners for the container */
@@ -25,7 +25,7 @@
 .centered-unity {
   width: 800px; /* Width of the Unity component */
   height: 600px; /* Height of the Unity component */
-  border: 3px solid #941c1c; /* Thicker red border for prominence */
+  border: 3px solid #ffffff; /* Thicker red border for prominence */
   border-radius: 15px; /* Rounded corners to match the container */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Shadow for the Unity component */
   margin: auto; /* Center the Unity component */

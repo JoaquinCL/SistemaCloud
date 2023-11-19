@@ -1,10 +1,10 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
 function Game3(){
     const { unityProvider,sendMessage } = useUnityContext({
-        loaderUrl: "/JuegoPregunta.loader.js",
-        dataUrl: "/JuegoPregunta.data.unityweb",
-        frameworkUrl: "/JuegoPregunta.framework.js.unityweb",
-        codeUrl: "/JuegoPregunta.wasm.unityweb",
+        loaderUrl: "/Trivia1.loader.js",
+        dataUrl: "/Trivia1.data.unityweb",
+        frameworkUrl: "/Trivia1.framework.js.unityweb",
+        codeUrl: "/Trivia1.wasm.unityweb",
     });
 
     function SceneHelPer(){
