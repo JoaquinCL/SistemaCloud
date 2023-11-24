@@ -11,7 +11,7 @@ function Game2(){
     }*/}
 
     function SceneHelPer(){
-        sendMessage("SceneHelper","ReloadScene");
+        sendMessage("","");
     }
 
     return (
@@ -20,7 +20,7 @@ function Game2(){
                 <h1 className="centered-title">Emparejados</h1>
                 <Unity unityProvider={unityProvider} className="centered-unity" />
                 <div className="centered-button-container">
-                {/*<button onClick={HandleClickSpawnEnemies}>Spanw Enemies</button>*/}
+                {}
                 <button onClick={SceneHelPer}>ReiniciarScena</button>
                 </div>
             </div>

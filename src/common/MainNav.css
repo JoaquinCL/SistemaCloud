@@ -1,6 +1,21 @@
 /* Cambia el color de los enlaces de la barra de navegación a blanco */
 .nav-link {
-    color: white !important;
+    color: #ffffff !important;
+}
+
+/* Define la animación de cambio de colores */
+@keyframes cambioColoresAleatorios {
+    0% { background-color: #ff0000; } /* Rojo */
+    20% { background-color: #ffa500; } /* Naranja */
+    40% { background-color: #ffff00; } /* Amarillo */
+    60% { background-color: #008000; } /* Verde */
+    80% { background-color: #0000ff; } /* Azul */
+    100% { background-color: #9b30ff; } /* Violeta */
+}
+
+/* Aplica la animación a la barra de navegación */
+.navbar-expand-lg {
+    animation: cambioColoresAleatorios 2.5s infinite; /* Cambia cada 2.5s para dar 0.5s por color */
 }
 
 /* Estilos para elementos con la clase .nav1-item */
@@ -26,9 +41,9 @@
     background-color: #101073; /* Fondo azul oscuro */
 }
 
-/* Estilos para la barra de navegación en un contenedor .navbar-expand-lg */
+/* Estilos adicionales para la barra de navegación en un contenedor .navbar-expand-lg */
 body .navbar-expand-lg {
     border: 5px solid #000000; /* Borde negro */
-    border-radius: 20px; /* Bordes redondeados */
     background-color: #000000 !important; /* Fondo negro */
+    transition: background-color 0.5s ease; /* Transición suave del color de fondo */
 }

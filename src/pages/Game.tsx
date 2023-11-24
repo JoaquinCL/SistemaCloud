@@ -9,7 +9,7 @@ function Game(){
     });
 
     function HandleFireProjectile(){
-        sendMessage("RobotController", "FireProjectile");
+        sendMessage("Robot", "FireProjectile");
     }
 
     return (

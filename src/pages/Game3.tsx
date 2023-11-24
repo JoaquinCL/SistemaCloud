@@ -8,7 +8,7 @@ function Game3(){
     });
 
     function SceneHelPer(){
-        sendMessage("SceneHelper","ReloadScene");
+        sendMessage("","");
     }
 
     return (

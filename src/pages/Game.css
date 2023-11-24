@@ -1,0 +1,18 @@
+/* Estilo para el botón */
+.button-style {
+    border: 3px solid #4CAF50; /* Borde más grueso y de color, ajusta el color según sea necesario */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno para hacer el botón más grande */
+    font-size: 16px; /* Tamaño de la fuente más grande */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre el botón */
+    transition: all 0.3s ease; /* Transición suave para efectos de hover y focus */
+}
+
+.button-style:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse, ajusta según sea necesario */
+}
+
+.button-style:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    box-shadow: 0 0 5px #4CAF50; /* Sombra para el estado de enfoque */
+}
